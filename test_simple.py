@@ -9,4 +9,4 @@ Date:    2024/11/1
 """
 import simple_lib
 
-print(simple_lib.greet("World"))  # 输出: Hello, World!
+print(simple_lib.greet("Big World"))  # 输出: Hello, World!
