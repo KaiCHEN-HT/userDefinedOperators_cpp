@@ -16,7 +16,7 @@ myfunctions_dll = ctypes.WinDLL('./myfunctions.dll')
 add = myfunctions_dll.add
 add.restype = ctypes.c_int
 add.argtypes = [ctypes.c_int, ctypes.c_int]
-result = add(3, 40)
+result = add(333, 40)
 print(f"3 + 40 = {result}")
 
 # 调用 get_message 函数
