@@ -10,7 +10,7 @@ Date:    2024/11/1
 from setuptools import setup, Extension
 from pybind11.setup_helpers import Pybind11Extension, build_ext
 
-ext_modules = [Pybind11Extension("simple_lib", ["pybind11_wrapper.cpp"],),]  # 模块名，源文件列表
+ext_modules = [Pybind11Extension("simple_lib", ["pybind_wrapper.cpp"],),]  # 模块名，源文件列表
 setup(name="simple_lib",
       version="0.0.1",
       author="Kai Chen",
