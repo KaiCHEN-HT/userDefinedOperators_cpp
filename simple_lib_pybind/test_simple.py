@@ -7,6 +7,8 @@
 Authors: chenkai26(chenkai26@baidu.com)
 Date:    2024/11/1
 """
-import simple_lib
+# import simple_lib
+import mymodule
+# print(simple_lib.greet("Big World"))  # 输出: Hello, World!
 
-print(simple_lib.greet("Big World"))  # 输出: Hello, World!
+print(mymodule.greet("Big World"))  # 输出: Hello, World!

@@ -7,6 +7,7 @@
 Authors: chenkai26(chenkai26@baidu.com)
 Date:    2024/11/1
 """
+# 构建脚本，调用g++编译器实现对C++代码的编译
 from setuptools import setup, Extension
 from pybind11.setup_helpers import Pybind11Extension, build_ext
 

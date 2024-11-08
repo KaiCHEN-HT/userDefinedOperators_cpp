@@ -10,7 +10,8 @@ Date:    2024/9/12
 import ctypes
 
 # 加载DLL
-myfunctions_dll = ctypes.WinDLL('./myfunctions.dll')
+# myfunctions_dll = ctypes.WinDLL('./myfunctions.dll')
+myfunctions_dll = ctypes.WinDLL('./build/Release/MyLibrary.dll')
 
 # 调用 add 函数
 add = myfunctions_dll.add

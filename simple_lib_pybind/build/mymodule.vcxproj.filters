@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\codeWorks\cpp_work\userDefinedOperators_cpp\simple_lib_pybind\simple_pybind_wrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\codeWorks\cpp_work\userDefinedOperators_cpp\simple_lib_pybind\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6A09645B-E1FF-3FC6-B18B-D2C537642494}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
