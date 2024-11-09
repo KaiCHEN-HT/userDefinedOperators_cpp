@@ -1,0 +1,10 @@
+^D:\CODEWORKS\CPP_WORK\USERDEFINEDOPERATORS_CPP\MYFUNCTIONS_CTYPES\BUILD\CMAKEFILES\977B7D638AC8F31BC990B29A4DA366FE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/codeWorks/cpp_work/userDefinedOperators_cpp/myfunctions_ctypes -BD:/codeWorks/cpp_work/userDefinedOperators_cpp/myfunctions_ctypes/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/codeWorks/cpp_work/userDefinedOperators_cpp/myfunctions_ctypes/build/DLLProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
