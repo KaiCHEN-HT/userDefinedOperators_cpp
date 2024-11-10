@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC  -flto -shared  -o simple_library.cpython-311-x86_64-linux-gnu.so CMakeFiles/simple_library.dir/simple_pybind_wrapper.cpp.o 

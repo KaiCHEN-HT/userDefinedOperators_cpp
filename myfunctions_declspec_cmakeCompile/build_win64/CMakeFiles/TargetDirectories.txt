@@ -1,0 +1,3 @@
+D:/codeWorks/cpp_work/userDefinedOperators_cpp/myfunctions_declspec_cmakeCompile/build_win64/CMakeFiles/myfunctions.dir
+D:/codeWorks/cpp_work/userDefinedOperators_cpp/myfunctions_declspec_cmakeCompile/build_win64/CMakeFiles/ALL_BUILD.dir
+D:/codeWorks/cpp_work/userDefinedOperators_cpp/myfunctions_declspec_cmakeCompile/build_win64/CMakeFiles/ZERO_CHECK.dir

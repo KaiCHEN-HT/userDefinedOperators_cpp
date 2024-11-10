@@ -1,3 +1,0 @@
-/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/edit_cache.dir
-/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/rebuild_cache.dir
-/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/simple_library.dir

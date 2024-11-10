@@ -11,7 +11,7 @@ import ctypes
 
 # 加载DLL
 # myfunctions_dll = ctypes.WinDLL('./myfunctions.dll')
-myfunctions_dll = ctypes.WinDLL('./build/Release/myfunctions.dll')
+myfunctions_dll = ctypes.WinDLL('./build_win64/Release/myfunctions.dll')
 
 # 调用 add 函数
 add = myfunctions_dll.add

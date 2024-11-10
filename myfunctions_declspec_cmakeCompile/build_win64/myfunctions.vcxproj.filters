@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\codeWorks\cpp_work\userDefinedOperators_cpp\myfunctions_declspec_cmakeCompile\myfunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\codeWorks\cpp_work\userDefinedOperators_cpp\myfunctions_declspec_cmakeCompile\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{748CBD1B-4BF8-3475-96A8-3697F92EE390}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

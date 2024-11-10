@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\codeWorks\cpp_work\userDefinedOperators_cpp\myfunctions_declspec_cmakeCompile\build_win64\CMakeFiles\6c842fae99cc3b899fd316d06c975f03\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3BC1FF02-1DC6-382D-BA25-5F84F71A809E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

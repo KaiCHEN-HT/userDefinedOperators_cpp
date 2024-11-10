@@ -1,0 +1,3 @@
+D:/codeWorks/cpp_work/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_win64/CMakeFiles/simple_library.dir
+D:/codeWorks/cpp_work/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_win64/CMakeFiles/ALL_BUILD.dir
+D:/codeWorks/cpp_work/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_win64/CMakeFiles/ZERO_CHECK.dir

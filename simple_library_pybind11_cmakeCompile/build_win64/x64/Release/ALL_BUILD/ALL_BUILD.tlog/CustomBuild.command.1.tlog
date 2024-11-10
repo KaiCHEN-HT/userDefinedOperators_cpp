@@ -1,0 +1,10 @@
+^D:\CODEWORKS\CPP_WORK\USERDEFINEDOPERATORS_CPP\SIMPLE_LIBRARY_PYBIND11_CMAKECOMPILE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/codeWorks/cpp_work/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile -BD:/codeWorks/cpp_work/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_win64 --check-stamp-file D:/codeWorks/cpp_work/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
