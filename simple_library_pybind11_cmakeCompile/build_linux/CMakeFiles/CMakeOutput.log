@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/3.16.0/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/3.16.0/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,37 +23,37 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/3.16.0/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/3.16.0/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp
+Change Dir: /home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d2063/fast && /usr/bin/make -f CMakeFiles/cmTC_d2063.dir/build.make CMakeFiles/cmTC_d2063.dir/build
-make[1]: Entering directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d2063.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_d2063.dir/testCCompiler.c.o   -c /home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_d2063
-/home/cmake-3.16.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2063.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_d2063.dir/testCCompiler.c.o  -o cmTC_d2063 
-make[1]: Leaving directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_52a5c/fast && /usr/bin/make -f CMakeFiles/cmTC_52a5c.dir/build.make CMakeFiles/cmTC_52a5c.dir/build
+make[1]: Entering directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52a5c.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_52a5c.dir/testCCompiler.c.o   -c /home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_52a5c
+/home/cmake-3.16.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52a5c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_52a5c.dir/testCCompiler.c.o  -o cmTC_52a5c 
+make[1]: Leaving directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp'
 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp
+Change Dir: /home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_71692/fast && /usr/bin/make -f CMakeFiles/cmTC_71692.dir/build.make CMakeFiles/cmTC_71692.dir/build
-make[1]: Entering directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_71692.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -o CMakeFiles/cmTC_71692.dir/CMakeCCompilerABI.c.o   -c /home/cmake-3.16.0-Linux-x86_64/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/make cmTC_cd0a1/fast && /usr/bin/make -f CMakeFiles/cmTC_cd0a1.dir/build.make CMakeFiles/cmTC_cd0a1.dir/build
+make[1]: Entering directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd0a1.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_cd0a1.dir/CMakeCCompilerABI.c.o   -c /home/cmake-3.16.0-Linux-x86_64/share/cmake-3.16/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 Target: x86_64-pc-linux-gnu
 Configured with: ../gcc-8.2.0/configure --prefix=/usr/local/gcc-8.2 --enable-threads=posix --disable-checking --disable-multilib
 Thread model: posix
 gcc version 8.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_71692.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/cmake-3.16.0-Linux-x86_64/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_71692.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccmKBNnJ.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd0a1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/cmake-3.16.0-Linux-x86_64/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_cd0a1.dir/CMakeCCompilerABI.c.o -version -o /tmp/cciCXXcl.s
 GNU C17 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 8.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
 
@@ -74,15 +74,15 @@ GNU C17 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 8bc999eb6cfa8a99e2ddc81138767200
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_71692.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_71692.dir/CMakeCCompilerABI.c.o /tmp/ccmKBNnJ.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd0a1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_cd0a1.dir/CMakeCCompilerABI.c.o /tmp/cciCXXcl.s
 GNU assembler version 2.33.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.33.1
 COMPILER_PATH=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/local/cuda/lib64/stubs/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_71692.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-Linking C executable cmTC_71692
-/home/cmake-3.16.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71692.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_71692.dir/CMakeCCompilerABI.c.o  -o cmTC_71692 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd0a1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_cd0a1
+/home/cmake-3.16.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd0a1.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_cd0a1.dir/CMakeCCompilerABI.c.o  -o cmTC_cd0a1 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper
@@ -92,10 +92,10 @@ Thread model: posix
 gcc version 8.2.0 (GCC) 
 COMPILER_PATH=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/local/cuda/lib64/stubs/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_71692' '-mtune=generic' '-march=x86-64'
- /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUM1oFO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_71692 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/local/cuda/lib64/stubs -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_71692.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_71692' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cd0a1' '-mtune=generic' '-march=x86-64'
+ /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaZpoGq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_cd0a1 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/local/cuda/lib64/stubs -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_cd0a1.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cd0a1' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp'
 
 
 
@@ -120,20 +120,20 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_71692/fast && /usr/bin/make -f CMakeFiles/cmTC_71692.dir/build.make CMakeFiles/cmTC_71692.dir/build]
-  ignore line: [make[1]: Entering directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_71692.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_71692.dir/CMakeCCompilerABI.c.o   -c /home/cmake-3.16.0-Linux-x86_64/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_cd0a1/fast && /usr/bin/make -f CMakeFiles/cmTC_cd0a1.dir/build.make CMakeFiles/cmTC_cd0a1.dir/build]
+  ignore line: [make[1]: Entering directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_cd0a1.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_cd0a1.dir/CMakeCCompilerABI.c.o   -c /home/cmake-3.16.0-Linux-x86_64/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Configured with: ../gcc-8.2.0/configure --prefix=/usr/local/gcc-8.2 --enable-threads=posix --disable-checking --disable-multilib]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 8.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_71692.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/cmake-3.16.0-Linux-x86_64/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_71692.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccmKBNnJ.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd0a1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/cmake-3.16.0-Linux-x86_64/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_cd0a1.dir/CMakeCCompilerABI.c.o -version -o /tmp/cciCXXcl.s]
   ignore line: [GNU C17 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)]
   ignore line: [	compiled by GNU C version 8.2.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
   ignore line: []
@@ -154,15 +154,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 8bc999eb6cfa8a99e2ddc81138767200]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_71692.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_71692.dir/CMakeCCompilerABI.c.o /tmp/ccmKBNnJ.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd0a1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_cd0a1.dir/CMakeCCompilerABI.c.o /tmp/cciCXXcl.s]
   ignore line: [GNU assembler version 2.33.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.33.1]
   ignore line: [COMPILER_PATH=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/local/cuda/lib64/stubs/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_71692.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking C executable cmTC_71692]
-  ignore line: [/home/cmake-3.16.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71692.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_71692.dir/CMakeCCompilerABI.c.o  -o cmTC_71692 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd0a1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_cd0a1]
+  ignore line: [/home/cmake-3.16.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd0a1.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_cd0a1.dir/CMakeCCompilerABI.c.o  -o cmTC_cd0a1 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper]
@@ -172,13 +172,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.2.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/local/cuda/lib64/stubs/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_71692' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUM1oFO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_71692 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/local/cuda/lib64/stubs -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_71692.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cd0a1' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaZpoGq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_cd0a1 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/local/cuda/lib64/stubs -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_cd0a1.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
     arg [/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccUM1oFO.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccaZpoGq.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -190,7 +190,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_71692] ==> ignore
+    arg [cmTC_cd0a1] ==> ignore
     arg [/usr/lib/x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o] ==> ignore
@@ -201,7 +201,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/local/cuda/lib64/stubs] ==> dir [/usr/local/cuda/lib64/stubs]
     arg [-L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..] ==> dir [/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..]
-    arg [CMakeFiles/cmTC_71692.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_cd0a1.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -226,34 +226,34 @@ Parsed C implicit link information from above output:
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp
+Change Dir: /home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_2ae22/fast && /usr/bin/make -f CMakeFiles/cmTC_2ae22.dir/build.make CMakeFiles/cmTC_2ae22.dir/build
-make[1]: Entering directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2ae22.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_2ae22.dir/testCXXCompiler.cxx.o -c /home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_2ae22
-/home/cmake-3.16.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ae22.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_2ae22.dir/testCXXCompiler.cxx.o  -o cmTC_2ae22 
-make[1]: Leaving directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_04e22/fast && /usr/bin/make -f CMakeFiles/cmTC_04e22.dir/build.make CMakeFiles/cmTC_04e22.dir/build
+make[1]: Entering directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_04e22.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_04e22.dir/testCXXCompiler.cxx.o -c /home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_04e22
+/home/cmake-3.16.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04e22.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_04e22.dir/testCXXCompiler.cxx.o  -o cmTC_04e22 
+make[1]: Leaving directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp'
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp
+Change Dir: /home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_88c8b/fast && /usr/bin/make -f CMakeFiles/cmTC_88c8b.dir/build.make CMakeFiles/cmTC_88c8b.dir/build
-make[1]: Entering directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_88c8b.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++    -v -o CMakeFiles/cmTC_88c8b.dir/CMakeCXXCompilerABI.cpp.o -c /home/cmake-3.16.0-Linux-x86_64/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/make cmTC_ee000/fast && /usr/bin/make -f CMakeFiles/cmTC_ee000.dir/build.make CMakeFiles/cmTC_ee000.dir/build
+make[1]: Entering directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ee000.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_ee000.dir/CMakeCXXCompilerABI.cpp.o -c /home/cmake-3.16.0-Linux-x86_64/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 Target: x86_64-pc-linux-gnu
 Configured with: ../gcc-8.2.0/configure --prefix=/usr/local/gcc-8.2 --enable-threads=posix --disable-checking --disable-multilib
 Thread model: posix
 gcc version 8.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_88c8b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/cmake-3.16.0-Linux-x86_64/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_88c8b.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccCSKxZa.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee000.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/cmake-3.16.0-Linux-x86_64/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ee000.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccTGD2IA.s
 GNU C++14 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 8.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
 
@@ -277,15 +277,15 @@ GNU C++14 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 8ab71907e41bd1c47e7cad5d1a4bda13
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_88c8b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_88c8b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccCSKxZa.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee000.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_ee000.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccTGD2IA.s
 GNU assembler version 2.33.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.33.1
 COMPILER_PATH=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/local/cuda/lib64/stubs/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_88c8b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-Linking CXX executable cmTC_88c8b
-/home/cmake-3.16.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88c8b.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_88c8b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_88c8b 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee000.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_ee000
+/home/cmake-3.16.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee000.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_ee000.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ee000 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper
@@ -295,10 +295,10 @@ Thread model: posix
 gcc version 8.2.0 (GCC) 
 COMPILER_PATH=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/local/cuda/lib64/stubs/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_88c8b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cceRRdug.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_88c8b /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/local/cuda/lib64/stubs -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_88c8b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_88c8b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ee000' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccf0SNNF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ee000 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/local/cuda/lib64/stubs -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_ee000.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ee000' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp'
 
 
 
@@ -329,20 +329,20 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_88c8b/fast && /usr/bin/make -f CMakeFiles/cmTC_88c8b.dir/build.make CMakeFiles/cmTC_88c8b.dir/build]
-  ignore line: [make[1]: Entering directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_88c8b.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_88c8b.dir/CMakeCXXCompilerABI.cpp.o -c /home/cmake-3.16.0-Linux-x86_64/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_ee000/fast && /usr/bin/make -f CMakeFiles/cmTC_ee000.dir/build.make CMakeFiles/cmTC_ee000.dir/build]
+  ignore line: [make[1]: Entering directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ee000.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_ee000.dir/CMakeCXXCompilerABI.cpp.o -c /home/cmake-3.16.0-Linux-x86_64/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Configured with: ../gcc-8.2.0/configure --prefix=/usr/local/gcc-8.2 --enable-threads=posix --disable-checking --disable-multilib]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 8.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_88c8b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/cmake-3.16.0-Linux-x86_64/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_88c8b.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccCSKxZa.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee000.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/cmake-3.16.0-Linux-x86_64/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ee000.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccTGD2IA.s]
   ignore line: [GNU C++14 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)]
   ignore line: [	compiled by GNU C version 8.2.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
   ignore line: []
@@ -366,15 +366,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 8ab71907e41bd1c47e7cad5d1a4bda13]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_88c8b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_88c8b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccCSKxZa.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee000.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_ee000.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccTGD2IA.s]
   ignore line: [GNU assembler version 2.33.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.33.1]
   ignore line: [COMPILER_PATH=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/local/cuda/lib64/stubs/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_88c8b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking CXX executable cmTC_88c8b]
-  ignore line: [/home/cmake-3.16.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88c8b.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_88c8b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_88c8b ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee000.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_ee000]
+  ignore line: [/home/cmake-3.16.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee000.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_ee000.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ee000 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper]
@@ -384,13 +384,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.2.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/local/cuda/lib64/stubs/:/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_88c8b' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cceRRdug.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_88c8b /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/local/cuda/lib64/stubs -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_88c8b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ee000' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccf0SNNF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ee000 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/local/cuda/lib64/stubs -L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_ee000.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
     arg [/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/local/gcc-8.2/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cceRRdug.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccf0SNNF.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -402,7 +402,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_88c8b] ==> ignore
+    arg [cmTC_ee000] ==> ignore
     arg [/usr/lib/x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o] ==> ignore
@@ -413,7 +413,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/local/cuda/lib64/stubs] ==> dir [/usr/local/cuda/lib64/stubs]
     arg [-L/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..] ==> dir [/usr/local/gcc-8.2/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..]
-    arg [CMakeFiles/cmTC_88c8b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_ee000.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -436,16 +436,16 @@ Parsed CXX implicit link information from above output:
 
 
 Performing C++ SOURCE FILE Test HAS_FLTO succeeded with the following output:
-Change Dir: /home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp
+Change Dir: /home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e70a0/fast && /usr/bin/make -f CMakeFiles/cmTC_e70a0.dir/build.make CMakeFiles/cmTC_e70a0.dir/build
-make[1]: Entering directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e70a0.dir/src.cxx.o
-/usr/bin/c++    -DHAS_FLTO   -flto -fno-fat-lto-objects -o CMakeFiles/cmTC_e70a0.dir/src.cxx.o -c /home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_e70a0
-/home/cmake-3.16.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e70a0.dir/link.txt --verbose=1
-/usr/bin/c++   -DHAS_FLTO    CMakeFiles/cmTC_e70a0.dir/src.cxx.o  -o cmTC_e70a0  -flto 
-make[1]: Leaving directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_19f1c/fast && /usr/bin/make -f CMakeFiles/cmTC_19f1c.dir/build.make CMakeFiles/cmTC_19f1c.dir/build
+make[1]: Entering directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_19f1c.dir/src.cxx.o
+/usr/bin/c++    -DHAS_FLTO   -flto -fno-fat-lto-objects -o CMakeFiles/cmTC_19f1c.dir/src.cxx.o -c /home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_19f1c
+/home/cmake-3.16.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19f1c.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_FLTO    CMakeFiles/cmTC_19f1c.dir/src.cxx.o  -o cmTC_19f1c  -flto 
+make[1]: Leaving directory '/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/CMakeFiles/CMakeTmp'
 
 
 Source file was:

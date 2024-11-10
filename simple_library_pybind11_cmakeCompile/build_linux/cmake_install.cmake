@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

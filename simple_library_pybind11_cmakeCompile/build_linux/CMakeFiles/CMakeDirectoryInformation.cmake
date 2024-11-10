@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/chenkai26/userDefinedOperators_cpp/simple_library_pybind11_cmakeCompile/build_linux")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
