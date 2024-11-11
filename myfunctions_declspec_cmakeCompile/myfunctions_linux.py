@@ -35,4 +35,4 @@ if __name__ == '__main__':
     message = msg_ptr.decode('utf-8')
     print(f"Message from C++: {message}")
 
-    free_message(msg_ptr)
+    # free_message(msg_ptr)
