@@ -7,22 +7,32 @@
 Authors: chenkai26(chenkai26@baidu.com)
 Date:    2024/9/12
 """
-import libmyfunctions as myfunctions_dll
+# myfunctions.py
+from ctypes import cdll, c_int, c_char_p, CFUNCTYPE
 
-# 调用 add 函数
-add = myfunctions_dll.add
-add.restype = ctypes.c_int
-add.argtypes = [ctypes.c_int, ctypes.c_int]
-result = add(333, 40)
-print(f"3 + 40 = {result}")
+# 加载共享库
+lib = cdll.LoadLibrary('./libmyfunctions.so')
 
-# 调用 get_message 函数
-get_message = myfunctions_dll.get_message
-get_message.restype = ctypes.c_char_p  # 设置返回类型为 char*
-message = get_message()  # 获得消息并打印
-print(ctypes.c_char_p(message).value.decode('utf-8'))
+# 封装add函数
+add = lib.add
+add.argtypes = [c_int, c_int]
+add.restype = c_int
 
-# 调用 free_message 函数以释放内存
-free_message = myfunctions_dll.free_message
-free_message.argtypes = [ctypes.c_char_p]  # 设置参数类型
-free_message(message)  # 释放内存
+# 封装get_message函数
+get_message = lib.get_message
+get_message.restype = c_char_p
+
+# 封装free_message函数
+free_message = lib.free_message
+free_message.argtypes = [c_char_p]
+
+# 测试函数
+if __name__ == '__main__':
+    result = add(3, 4)
+    print(f"3 + 4 = {result}")
+
+    msg_ptr = get_message()
+    message = msg_ptr.decode('utf-8')
+    print(f"Message from C++: {message}")
+
+    free_message(msg_ptr)
