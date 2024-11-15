@@ -6,8 +6,8 @@ site_author: KaiCHEN-HT
 
 # 仓库链接（用于编辑页面按钮）
 repo_url: https://github.com/KaiCHEN-HT/userDefinedOperators_cpp/
-repo_name: "/userDefinedOperators_cpp/"
-edit_uri: "/blob/master/docs/"
+repo_name: /userDefinedOperators_cpp/
+edit_uri: /blob/master/docs/
 
 # 导航结构
 nav:
