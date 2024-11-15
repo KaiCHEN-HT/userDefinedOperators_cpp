@@ -29,10 +29,10 @@ theme:
     - tabs
 
 # 插件列表
-plugins:
-  - search
-  - minify:
-      minify_html: true
+#plugins:
+#  - search
+#  - minify:
+#      minify_html: true
 
 # 扩展Markdown
 markdown_extensions:
