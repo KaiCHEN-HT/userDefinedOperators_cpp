@@ -18,8 +18,8 @@ nav:
   - User Guide:
     - Installation: user-guide/installation.md
     - Configuration: user-guide/configuration.md
-  - Contact: contact/contact.md
-  - 404: 404.md
+    - Contact: contact/contact.md
+    - 404: 404.md
 
 # 主题设置
 theme:
