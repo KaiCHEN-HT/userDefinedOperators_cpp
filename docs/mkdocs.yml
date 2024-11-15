@@ -1,0 +1,69 @@
+# 项目信息
+site_name: userDefinedOperators_DL Docs
+site_url: https://github.com/KaiCHEN-HT/userDefinedOperators_cpp
+site_description: An open source library of user-defined-operators used in Deep Learning framework.
+site_author: KaiCHEN-HT
+
+# 导航结构
+nav:
+  - Home: index.md
+  - About:
+    - Overview: about/overview.md
+    - Team: about/team.md
+  - User Guide:
+    - Installation: user-guide/installation.md
+    - Configuration: user-guide/configuration.md
+  - Contact: contact.md
+
+# 主题设置
+theme:
+  name: readthedocs
+  locale: en
+  features:
+    - tabs
+
+# 插件列表
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+# 扩展Markdown
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite:
+      guess_lang: false
+
+# 附加文件
+#extra_css:
+#  - css/extra.css
+#extra_javascript:
+#  - javascript/extra.js
+
+# 站点目录
+docs_dir: docs
+
+# 构建目录
+site_dir: site
+
+# 页脚文本
+copyright: "Copyright © 2024 KaiCHEN-HT"
+
+# Google 分析追踪ID
+google_analytics:
+  - UA-1234567-1
+  - auto
+
+# 仓库链接（用于编辑页面按钮）
+repo_url: https://github.com/KaiCHEN-HT/userDefinedOperators_cpp
+repo_name: userDefinedOperators_cpp
+edit_uri: blob//develop/docs/
+
+# 自定义favicon（站点图标）
+favicon: docs/images/favicon.ico
+
+# 使用自定义404页面
+pages:
+  - 404: docs/404.md
