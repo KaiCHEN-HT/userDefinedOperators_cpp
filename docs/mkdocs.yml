@@ -1,6 +1,6 @@
 # 项目信息
 site_name: userDefinedOperators_DL Docs
-site_url: "https://github.com/KaiCHEN-HT/userDefinedOperators_cpp"
+site_url: https://github.com/KaiCHEN-HT/userDefinedOperators_cpp
 site_description: An open source library of user-defined-operators used in Deep Learning framework.
 site_author: KaiCHEN-HT
 
